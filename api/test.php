@@ -8,8 +8,8 @@ $mysqli = new mysqli(
 );
 
 if ($mysqli->connect_errno) {
-    echo "Error de conexión: " . $mysqli->connect_error;
+    echo "❌ Error de conexión: " . $mysqli->connect_error;
 } else {
-    echo "Conexión exitosa a Railway!";
+    echo "✅ Conexión exitosa a Railway!";
 }
 ?>
